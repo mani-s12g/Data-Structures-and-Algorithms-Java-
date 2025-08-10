@@ -1,0 +1,9 @@
+
+
+When to use Do - While ?
+
+when in questions they use phrases like -
+
+do some tasks untill users press some button  - OR
+print something untill users enters zero  - OR
+give sum of N numbers untill users enter some wrong number like 0. - Like these...
