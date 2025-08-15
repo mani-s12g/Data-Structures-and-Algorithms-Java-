@@ -14,10 +14,19 @@ public class AcsOrDesc {
         boolean ascending = true;
         boolean descending = true;
 
-        for (int i = 0; i < arr.length - 1; i++) {
-            if (arr[i] < arr[i + 1]) {
+//        for (int i = 0; i < arr.length - 1; i++) {
+//            if (arr[i] < arr[i + 1]) {
+//                descending = false;
+//            } else if (arr[i] > arr[i + 1]) {
+//                ascending = false;
+//            }
+//        }
+
+//        or
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i - 1] < arr[i]) {
                 descending = false;
-            } else if (arr[i] > arr[i + 1]) {
+            } else if (arr[i] < arr[i - 1]) {
                 ascending = false;
             }
         }

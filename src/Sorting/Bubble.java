@@ -9,9 +9,10 @@ public class Bubble {
         int[] arr = {2, 7, 1, 0, 9};
         BubbleSort(arr);
         System.out.println(Arrays.toString(arr));
-        String s = "ana";
-        char[] ch = s.toCharArray();
-        System.out.println(ch[0] + ": s");
+
+//        String s = "ana";
+//        char[] ch = s.toCharArray();
+//        System.out.println(ch[0] + ": s");
     }
     static void BubbleSort(int[] arr){
         int n = arr.length;

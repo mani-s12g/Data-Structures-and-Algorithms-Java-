@@ -1,3 +1,9 @@
+// Selection Sort
+// Find largest ele &
+// Swap it with correct index i.e., last index
+
+// find largest element index & find last element index
+
 package Sorting;
 
 import java.util.Arrays;
@@ -27,9 +33,9 @@ public class Selection {
     static void SelectionSort(int[] arr){
         int n = arr.length;
         for (int i = 0; i < n; i++) {
-            int lastIndex = n - i - 1;
-            int maxIndex = max(arr, lastIndex);
-            swap(arr, maxIndex, lastIndex);
+            int lastIndex = n - i - 1; // last index
+            int maxElementIndex = max(arr, lastIndex); // largest element index
+            swap(arr, maxElementIndex, lastIndex); // then swap
         }
     }
 

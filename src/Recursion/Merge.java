@@ -5,8 +5,10 @@ import java.util.Arrays;
 public class Merge {
     public static void main(String[] args) {
         int[] arr = {5, 4, 3, 2, 1};
+
         mergeSortInPlace(arr, 0, arr.length);
         System.out.println(Arrays.toString(arr));
+
 //        int[] ans = mergeSort(arr);
 //        System.out.println(Arrays.toString(ans));
     }
